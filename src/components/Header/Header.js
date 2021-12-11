@@ -23,7 +23,7 @@ const Header = () => {
                             aria-label="Toggle navigation">
                         <span className="navbar-toggler-icon"></span>
                     </button>
-                    { toggle ?<div className="collapse navbar-collapse mt-xxl-3" id="navbarResponsive">
+                    { toggle ?<div className="collapse navbar-collapse  mt-xxl-5" id="navbarResponsive">
                         <ul className="navbar-nav ms-auto">
                             <Link to={'/'}>
                                 <li className="nav-item">
@@ -55,7 +55,7 @@ const Header = () => {
                         </ul>
                     </div>
                     :
-                        <div className="collapse navbar-collapse mt-xxl-5 d-block" id="navbarResponsive">
+                        <div className="collapse navbar-collapse d-block" id="navbarResponsive">
                             <ul className="navbar-nav ms-auto mt-4">
                                 <Link to={'/'}>
                                     <li className="nav-item" onClick={toggleNavbar}>
